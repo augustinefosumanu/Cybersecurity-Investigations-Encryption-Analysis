@@ -112,72 +112,95 @@ To establish a secure communication channel, I generated a key pair and exported
 <img src="https://i.imgur.com/wmVUaBK.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
+<p align="center">
+<img src="https://i.imgur.com/a8t0Dpi.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
 
-<h2>  </h2>
-
+<h2> Importing Partner’s Public Key for Secure Communication </h2>
+To facilitate encrypted communication, I successfully imported my partner’s public key into my GPG keyring.
 <br />
 <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<img src="https://i.imgur.com/6N4MVLo.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
 
-<h2>  </h2>
-
+<h2> Encrypting the Secret Idea Message with Partner’s Public Key </h2>
+To ensure the confidentiality of my secret idea, I encrypted the message using my partner's public GPG key and securely stored the encrypted file.
 <br />
 <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<img src="https://i.imgur.com/644byhn.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
 
-<h2>  </h2>
-
+<h2> Decrypting Partner’s Encrypted Message </h2>
+After receiving my partner’s encrypted message, I successfully decrypted it using my private key to access the contents securely. Checked the contents of decrypted_secret_idea.txt to confirm the message was correctly decrypted and intact.
 <br />
 <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
-<br />
-<br />
-
-<h2>  </h2>
-
+<img src="https://i.imgur.com/ZnEGgfm.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
-<br />
-<br />
-
-<h2>  </h2>
-
+<img src="https://i.imgur.com/G0RJuqA.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<img src="https://i.imgur.com/TQxKqF1.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
 
-<h2>  </h2>
-
+<h2> Extracting the Investigation Files </h2>
+I successfully extracted the investigation files provided to me, ensuring all contents were properly retrieved and accessible for further analysis. 
 <br />
 <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<img src="https://i.imgur.com/hFuCvT9.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
 
-<h2>  </h2>
-
+<h2> Generating MD5 Hashes for Investigation Files </h2>
+To ensure file integrity and verification, I successfully generated MD5 hashes for all extracted investigation files and stored them in a single file named hashes.
 <br />
 <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<img src="https://i.imgur.com/FRUaXin.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+  
+<h2> Verifying File Integrity with MD5 Hash Comparison </h2>
+I performed an MD5 hash comparison to check for any changes in the extracted investigation files by comparing them with the original hash records.<br />
+- Unchanged files: Displayed OK, meaning their integrity is intact.<br />
+- Modified files: Displayed FAILED, indicating the contents were altered.<br />
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/hedy7El.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
 
-<h2>  </h2>
+<h2> Identifying Modifications in Changed Files Using diff </h2>
+After detecting file modifications through the MD5 hash comparison, I used the <b>diff</b> command to analyze what was changed in the modified files.
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/oy3qctN.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
 
+<h2> Extracting Messages from Captain Strickland </h2>
+I successfully located and extracted messages from Captain Strickland for further analysis.
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/yF9PPZd.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+
+<h2> Importing Public Key </h2>
+I successfully imported Captain Strickland’s public key into my GPG keyring to enable secure communication and verification of signed messages.
 <br />
 <br />
 <p align="center">
